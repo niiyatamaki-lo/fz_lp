@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="39.968" height="23.808" viewBox="0 0 39.968 23.808">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.129" x2="0.839" y2="0.864" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#eda3ff"/>
+      <stop offset="1" stop-color="#a09eff"/>
+    </linearGradient>
+  </defs>
+  <path id="パス_368" data-name="パス 368" d="M-5.888,1.952V.16a11.542,11.542,0,0,0,8.16-11.04A11.16,11.16,0,0,0-8.9-21.856,11.167,11.167,0,0,0-20.1-10.88,11.6,11.6,0,0,0-11.872.16V1.952Zm-5.824-8.576a5.031,5.031,0,0,1-2.144-4.192A5.075,5.075,0,0,1-8.9-15.9a5.13,5.13,0,0,1,5.024,5.088A5.137,5.137,0,0,1-6.08-6.624V-8.992h-5.632ZM4.32-6.3h8.7v-4.7H11.936l2.176-5.408V0h5.76V-21.184H10.656Z" transform="translate(20.096 21.856)" fill="url(#linear-gradient)"/>
+</svg>

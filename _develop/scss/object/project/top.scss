@@ -1,0 +1,343 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Noto Sans JP', sans-serif;
+    background: linear-gradient(to right, #EDA3FF 0%, #E0A2FF 20%, #A09EFF 100%);
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+header {
+    padding: 20px;
+}
+
+p {
+    color:#2D3138;
+}
+
+.top-section {
+    height: 90vh;
+    background: url('assets/images/top-background.png') no-repeat center -60px;
+    background-size: cover;
+    margin-bottom: 0;
+}
+
+.second-section {
+    margin-top: 0;
+    /* height: 100vh; */
+    background-image: radial-gradient(circle 500px at 30px, rgba(155, 154, 250, 0.8), rgba(160, 158, 255, 0) 70%);
+    background-position: left center;
+    position: relative;
+}
+
+.collection-section {
+    /* height: 200vh; */
+    margin-top: 100px;
+    background-image: radial-gradient(circle 500px at 30px, rgba(155, 154, 250, 0.8), rgba(160, 158, 255, 0) 70%);
+    background-position: left center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.third-section {
+    background-image: radial-gradient(circle 500px at 30px, rgba(155, 154, 250, 0.8), rgba(160, 158, 255, 0) 70%);
+    background-position: left center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.fourth-section {
+    height: 110vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.white-section {
+    background-color: #FFFFFF;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content-box {
+    border: 2px solid #333;
+    border-radius: 20px;
+    padding: 100px;
+    position: relative;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.content-box::before {
+    background-color: #fff;
+    color: #333;
+    content: "キャンペーン概要";
+    padding: 3px 50px;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 37px;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.text-div {
+    flex: 1;
+    margin-left: 60px;
+}
+
+.image-div {
+    flex: 1;
+}
+
+.image-div img {
+    max-width: 95%;
+}
+
+.top-text {
+    color: #FFFFFF;
+    font-size: 33px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.top-text2 {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.top-text3 {
+    background: linear-gradient(to right, #EDA3FF 0%, #E0A2FF 20%, #A09EFF 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.centered-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 45%;
+    height: 55px;
+    margin: 40px auto;
+    margin-bottom: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
+}
+
+.second-text-div {
+    text-align: center;
+}
+
+.second-point-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.step-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 35px;
+}
+
+.question-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.title-p {
+    font-size: 37px;
+    font-weight: bold;
+}
+
+.share-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.share-icon-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+footer {
+    padding-bottom: 150px;
+    background-color: #2D3138;
+}
+
+.footer-div {
+    padding-left: 200px;
+    padding-right: 200px;  
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer-div p {
+    color: #BBBBBB;
+    font-size: 13px;
+}
+
+.footer-bottom-div {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.footer-bottom-div a {
+    color: #BBBBBB;
+    font-size: 14px;
+}
+
+.footer-bottom-div img {
+    position: absolute;
+    top: -10%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    max-height: 50px;
+    object-fit: contain;
+}
+
+input {
+    display: none;
+}
+
+label {
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    gap: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    cursor: pointer;
+  }
+
+.icon {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 30%;
+    transform-origin: center;
+    transition: transform 0.5s;
+}
+
+.icon::before,
+.icon::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 15px;
+    height: 3px;
+    background-color: #FFF;
+}
+
+.icon::before {
+    left: 0;
+    transform: rotate(45deg);
+}
+
+.icon::after {
+    right: 0;
+    transform: rotate(-45deg);
+}
+  
+.wrap {
+    border: 2px solid #000;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    padding: 5px 20px 5px 20px;
+    width: 650px;
+    box-shadow: 5px 6px 0px 0px rgba(0, 0, 0, 1);
+  }
+
+  .content {
+    max-height: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    overflow: hidden;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .content p {
+    margin: 0;
+    padding: 15px 0px 15px 0px;
+  }
+  
+  /*クリックするとコンテンツ表示*/
+  input:checked ~ .content {
+    max-height: 100px;
+    opacity: 1;
+    visibility: visible;
+    border-top: none;
+    background-image: linear-gradient(to right, #CECECE 50%, transparent 50%);
+    background-size: 10px 1px;
+    background-repeat: repeat-x;
+  }
+  
+  /* アコーディオン表示の際に三角回転 */
+  input:checked ~ label .icon {
+    transform: rotate(180deg);
+  }

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.148" y1="0.153" x2="0.832" y2="0.86" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#eda3ff"/>
+      <stop offset="1" stop-color="#a09eff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0" y1="0.092" x2="0.848" y2="0.953" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="グループ_196" data-name="グループ 196" transform="translate(-763 -7391)">
+    <path id="パス_399_-_アウトライン" data-name="パス 399 - アウトライン" d="M40,2A38.011,38.011,0,0,0,25.209,75.015,38.01,38.01,0,0,0,54.791,4.985,37.76,37.76,0,0,0,40,2m0-2A40,40,0,1,1,0,40,40,40,0,0,1,40,0Z" transform="translate(763 7391)" fill="url(#linear-gradient)"/>
+    <path id="facebook-f-brands-solid" d="M19.548,25.158V43.037H29.3V25.158h7.271l1.513-8.221H29.3V14.029c0-4.346,1.706-6.01,6.111-6.01,1.37,0,2.471.034,3.11.1V.664A30.156,30.156,0,0,0,32.677,0c-8.986,0-13.13,4.245-13.13,13.4v3.539H14v8.221Z" transform="translate(776.74 7409.482)" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>
