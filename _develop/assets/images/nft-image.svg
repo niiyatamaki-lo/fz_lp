@@ -12,7 +12,7 @@
       <stop offset="1" stop-color="#eda3ff"/>
     </linearGradient>
   </defs>
-  <g id="グループ_193" data-name="グループ 193" transform="translate(-143 -3077)">
+  <g id="グループ_172" data-name="グループ 172" transform="translate(-143 -3077)">
     <rect id="長方形_1097" data-name="長方形 1097" width="1080" height="1042" rx="46" transform="translate(158 3092)" fill="#2d3138"/>
     <g id="長方形_1087" data-name="長方形 1087" transform="translate(143 3077)" fill="#fff" stroke="#2d3138" stroke-width="2">
       <rect width="1080" height="1042" rx="46" stroke="none"/>
@@ -52,27 +52,5 @@
     <path id="パス_769" data-name="パス 769" d="M1.553-15.318h-2.99l-1.311,3.772H-5.417L-6.428-8.763H-3.76l-.759,2.208H-7.141L-8.176-3.772h2.668L-6.865,0H-3.9l1.357-3.772H-.2L-1.552,0H1.414L2.772-3.772H5.394L6.429-6.555H3.761l.782-2.208h2.6l1.035-2.783H5.532l1.334-3.772H3.9L2.565-11.546H.218Zm.069,6.555L.839-6.509H-1.644l.8-2.254ZM-13.11,15.3a7.992,7.992,0,0,0,8.257,7.981,7.932,7.932,0,0,0,7.705-7.843,7.988,7.988,0,0,0-8.142-8.1A7.993,7.993,0,0,0-13.11,15.3Zm11.477-.207a3.493,3.493,0,0,1-3.289,3.726,3.443,3.443,0,0,1-3.2-1.7,2.683,2.683,0,0,1-.506-1.541A3.525,3.525,0,0,1-5.06,11.8,3.524,3.524,0,0,1-1.633,15.088Zm6.21-3.174H6.394l-1.265,3.22c1.955-.046,2.99.8,2.99,1.771,0,1.495-.9,2.162-1.817,2.162a3.839,3.839,0,0,1-1.725-.575v4.3a5.878,5.878,0,0,0,2.668.506,5.214,5.214,0,0,0,2.622-.644,4.9,4.9,0,0,0,2.921-4.9c0-1.886-.943-2.921-2.553-4.3L12.7,7.521H4.577Z" transform="translate(956.09 3269.197)" fill="#fff"/>
     <path id="多角形_11" data-name="多角形 11" d="M20.825,2.768a2,2,0,0,1,3.407,0L43.18,33.56a2,2,0,0,1-1.7,3.048H3.579a2,2,0,0,1-1.7-3.048Z" transform="translate(527.709 3410.687) rotate(90)" fill="url(#linear-gradient-2)"/>
     <path id="多角形_12" data-name="多角形 12" d="M20.825,2.768a2,2,0,0,1,3.407,0L43.18,33.56a2,2,0,0,1-1.7,3.048H3.579a2,2,0,0,1-1.7-3.048Z" transform="translate(865.757 3410.687) rotate(90)" fill="url(#linear-gradient-2)"/>
-    <g id="グループ_136" data-name="グループ 136" transform="translate(417 3486)">
-      <g id="グループ_82" data-name="グループ 82" transform="translate(0 27)">
-        <g id="長方形_1670" data-name="長方形 1670" transform="translate(92 445)" fill="none" stroke="#2d3138" stroke-width="2">
-          <rect width="352" height="77" rx="38.5" stroke="none"/>
-          <rect x="1" y="1" width="350" height="75" rx="37.5" fill="none"/>
-        </g>
-        <rect id="長方形_4" data-name="長方形 4" width="352" height="77" rx="38.5" transform="translate(88 440)" fill="#2d3138"/>
-        <text id="無料_口座開設はこちら" data-name="無料・口座開設はこちら" transform="translate(125 489)" fill="#fff" font-size="22" font-family="NotoSansJP-Bold, Noto Sans JP" font-weight="700"><tspan x="0" y="0">無料・口座開設</tspan><tspan y="0">はこちら</tspan></text>
-        <circle id="楕円形_7" data-name="楕円形 7" cx="14.5" cy="14.5" r="14.5" transform="translate(380 466)" fill="#fff"/>
-        <path id="多角形_1" data-name="多角形 1" d="M6.3,2.768a2,2,0,0,1,3.407,0l4.421,7.184A2,2,0,0,1,12.421,13H3.579a2,2,0,0,1-1.7-3.048Z" transform="translate(402.5 472.5) rotate(90)" fill="#2d3138"/>
-      </g>
-      <g id="長方形_1669" data-name="長方形 1669" transform="translate(300 441)" fill="#fff" stroke="#2d3138" stroke-width="2">
-        <rect width="119" height="38" rx="19" stroke="none"/>
-        <rect x="1" y="1" width="117" height="36" rx="18" fill="none"/>
-      </g>
-      <g id="多角形_29" data-name="多角形 29" transform="translate(365 484) rotate(180)" fill="#fff">
-        <path d="M 7.585780143737793 4 L 2.414220094680786 4 L 5 1.414219975471497 L 7.585780143737793 4 Z" stroke="none"/>
-        <path d="M 5 0 L 10 5 L 0 5 L 5 0 Z" stroke="none" fill="#2d3138"/>
-      </g>
-      <path id="多角形_30" data-name="多角形 30" d="M5,0l5,5H0Z" transform="translate(365 482) rotate(180)" fill="#fff"/>
-      <text id="最短当日" transform="translate(332 466)" fill="#2d3138" font-size="14" font-family="NotoSansJP-Bold, Noto Sans JP" font-weight="700"><tspan x="0" y="0">最短当日</tspan></text>
-    </g>
   </g>
 </svg>

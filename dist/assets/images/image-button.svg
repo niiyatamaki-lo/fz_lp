@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="356" height="108" viewBox="0 0 356 108">
-  <g id="グループ_184" data-name="グループ 184" transform="translate(-88 -441)">
+  <g id="グループ_136" data-name="グループ 136" transform="translate(-88 -441)">
     <g id="グループ_82" data-name="グループ 82" transform="translate(0 27)">
       <g id="長方形_1670" data-name="長方形 1670" transform="translate(92 445)" fill="none" stroke="#2d3138" stroke-width="2">
         <rect width="352" height="77" rx="38.5" stroke="none"/>
         <rect x="1" y="1" width="350" height="75" rx="37.5" fill="none"/>
       </g>
       <rect id="長方形_4" data-name="長方形 4" width="352" height="77" rx="38.5" transform="translate(88 440)" fill="#2d3138"/>
-      <text id="無料_口座開設はこちら" data-name="無料・口座開設はこちら" transform="translate(125 489)" fill="#fff" font-size="22" font-family="HiraginoSans-W6, Hiragino Sans"><tspan x="0" y="0">無料・口座開設はこちら</tspan></text>
+      <text id="無料_口座開設はこちら" data-name="無料・口座開設はこちら" transform="translate(125 489)" fill="#fff" font-size="22" font-family="NotoSansJP-Bold, Noto Sans JP" font-weight="700"><tspan x="0" y="0">無料・口座開設</tspan><tspan y="0">はこちら</tspan></text>
       <circle id="楕円形_7" data-name="楕円形 7" cx="14.5" cy="14.5" r="14.5" transform="translate(380 466)" fill="#fff"/>
       <path id="多角形_1" data-name="多角形 1" d="M6.3,2.768a2,2,0,0,1,3.407,0l4.421,7.184A2,2,0,0,1,12.421,13H3.579a2,2,0,0,1-1.7-3.048Z" transform="translate(402.5 472.5) rotate(90)" fill="#2d3138"/>
     </g>
@@ -14,6 +14,11 @@
       <rect width="119" height="38" rx="19" stroke="none"/>
       <rect x="1" y="1" width="117" height="36" rx="18" fill="none"/>
     </g>
-    <text id="最短当日" transform="translate(332 466)" fill="#2d3138" font-size="14" font-family="HiraginoSans-W6, Hiragino Sans"><tspan x="0" y="0">最短当日</tspan></text>
+    <g id="多角形_29" data-name="多角形 29" transform="translate(365 484) rotate(180)" fill="#fff">
+      <path d="M 7.585780143737793 4 L 2.414220094680786 4 L 5 1.414219975471497 L 7.585780143737793 4 Z" stroke="none"/>
+      <path d="M 5 0 L 10 5 L 0 5 L 5 0 Z" stroke="none" fill="#2d3138"/>
+    </g>
+    <path id="多角形_30" data-name="多角形 30" d="M5,0l5,5H0Z" transform="translate(365 482) rotate(180)" fill="#fff"/>
+    <text id="最短当日" transform="translate(332 466)" fill="#2d3138" font-size="14" font-family="NotoSansJP-Bold, Noto Sans JP" font-weight="700"><tspan x="0" y="0">最短当日</tspan></text>
   </g>
 </svg>
