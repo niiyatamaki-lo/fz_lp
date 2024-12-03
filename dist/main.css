@@ -330,6 +330,7 @@ a {
 
   @media (max-width: 768px) {
     flex-direction: column;
+    margin-top: 25px;
   }
 }
 
@@ -412,7 +413,7 @@ a {
     margin-top: 30px;
 
     @media (max-width: 768px) {
-        gap: 25px;
+        gap: 0px;
 
         img {
             max-width: 18%;
@@ -723,5 +724,26 @@ input:checked ~ label .icon {
 
     @media (max-width: 768px) {
         width: 80%;
+    }
+}
+
+.share-icon-div a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.share-icon-div img {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+
+    max-width: 70%;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+
+    &:active {
+        transform: scale(0.95);
     }
 }
