@@ -498,8 +498,8 @@ footer {
 
     @media (max-width: 768px) {
         position: relative;
-        max-width: 50%;
-        left: 5%;
+        max-width: 80%;
+        left: 16%;
     }
 }
 
