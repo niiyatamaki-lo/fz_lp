@@ -9,6 +9,7 @@ html, body {
     height: 100%;
     font-family: 'Noto Sans JP', sans-serif;
     background: linear-gradient(to right, #EDA3FF 0%, #E0A2FF 20%, #A09EFF 100%);
+    overflow-x: hidden;
 }
 
 img, picture, video, canvas, svg {
@@ -31,10 +32,32 @@ ul, ol {
 
 header {
     padding: 20px;
+
+    @media (max-width: 768px) {
+        img {
+            max-width: 40%;
+        }
+    }
 }
 
 p {
     color:#2D3138;
+}
+
+.pc {
+    display: block;
+
+    @media (max-width: 768px) {
+        display: none;
+    }
+}
+
+.sp {
+    display: none;
+
+    @media (max-width: 768px) {
+        display: block;
+    }
 }
 
 .top-section {
@@ -42,6 +65,11 @@ p {
     background: url('assets/images/top-background.png') no-repeat center -60px;
     background-size: cover;
     margin-bottom: 0;
+
+    @media (max-width: 768px) {
+        background-position: -250px -60px;
+        height: auto;
+    }
 }
 
 .second-section {
@@ -50,6 +78,11 @@ p {
     background-image: radial-gradient(circle 500px at 30px, rgba(155, 154, 250, 0.8), rgba(160, 158, 255, 0) 70%);
     background-position: left center;
     position: relative;
+
+    @media (max-width: 768px) {
+        background-image: radial-gradient(circle 200px at 30px, rgba(155, 154, 250, 0.8), rgba(160, 158, 255, 0) 70%);
+        background-position: -50px;
+    }
 }
 
 .collection-section {
@@ -62,6 +95,7 @@ p {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
 }
 
 .third-section {
@@ -81,6 +115,10 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media (max-width: 768px) {
+        height: 120vh;
+    }
 }
 
 .white-section {
@@ -91,6 +129,11 @@ p {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+    @media (max-width: 768px) {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
 }
 
 .content-box {
@@ -100,6 +143,13 @@ p {
     position: relative;
     margin-left: 200px;
     margin-right: 200px;
+
+    @media (max-width: 768px) {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 40px 20px;
+        border: none;
+    }
 }
 
 .content-box::before {
@@ -112,6 +162,10 @@ p {
     left: 50%;
     transform: translateX(-50%);
     font-size: 37px;
+
+    @media (max-width: 768px) {
+        content: "";
+    }
 }
 
 .content-container {
@@ -119,19 +173,52 @@ p {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        padding: 0;
+    }
+}
+
+.campaign-text {
+    @media (max-width: 768px) {
+        text-align: center;
+        font-size: 14px;
+    }
 }
 
 .text-div {
     flex: 1;
     margin-left: 60px;
+
+    @media (max-width: 768px) {
+        margin-left: 0;
+        margin: 20px;
+        margin-top: 0;
+
+        img {
+            max-width: 80%;
+        }
+    }
 }
 
 .image-div {
     flex: 1;
+
+    @media (max-width: 768px) {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        position: relative;
+    }
 }
 
 .image-div img {
     max-width: 95%;
+
+    @media (max-width: 768px) {
+        max-width: 90%;
+    }
 }
 
 .top-text {
@@ -140,12 +227,20 @@ p {
     font-weight: bold;
     margin-top: 10px;
     margin-bottom: 10px;
+
+    @media (max-width: 768px) {
+        font-size: 20px;
+    }
 }
 
 .top-text2 {
     color: #FFFFFF;
     font-size: 18px;
     font-weight: bold;
+
+    @media (max-width: 768px) {
+        font-size: 14px;
+    }
 }
 
 .top-text3 {
@@ -155,9 +250,23 @@ p {
     -webkit-text-fill-color: transparent;
     font-size: 18px;
     font-weight: bold;
+
+    @media (max-width: 768px) {
+        font-size: 10px;
+    }
+}
+
+.image-button {
+    margin-top: 20px;
+
+    @media (max-width: 768px) {
+        max-width: 65% !important;
+        margin-top: 15px;
+    }
 }
 
 .centered-text {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -168,10 +277,32 @@ p {
     margin-bottom: 0;
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 15px;
+
+    @media (max-width: 768px) {
+        height: 30px;
+        width: 85%;
+        margin: 25px auto;
+        border-radius: 7px;
+    }
+}
+
+.img-point {
+    @media (max-width: 768px) {
+        max-width: 90%;
+        margin-right: 10px;
+    }
+}
+
+.img-collection {
+    @media (max-width: 768px) {
+        max-width: 90%;
+        margin-left: 10px;
+    }
 }
 
 .second-text-div {
     text-align: center;
+    position: relative;
 }
 
 .second-point-div {
@@ -180,6 +311,7 @@ p {
     align-items: center;
     flex-direction: column;
     gap: 20px;
+    position: relative;
 }
 
 .step-div {
@@ -188,6 +320,46 @@ p {
   align-items: center;
   gap: 10px;
   margin-top: 35px;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.img-step {
+    @media (max-width: 768px) {
+        max-width: 92%;
+        margin-right: 5px;
+    }
+}
+
+.nft-div {
+    position: relative;
+    display: inline-block;
+
+    @media (max-width: 768px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.img-nft {
+    @media (max-width: 768px) {
+        max-width: 89%;
+        margin-left: 5px;
+    }
+}
+
+.nft-button {
+    position: absolute;
+    bottom: 9%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    @media (max-width: 768px) {
+        bottom: 4%;
+    }
 }
 
 .question-div {
@@ -197,11 +369,20 @@ p {
     flex-direction: column;
     margin-top: 150px;
     margin-bottom: 150px;
+
+    @media (max-width: 768px) {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
 }
 
 .title-p {
     font-size: 37px;
     font-weight: bold;
+
+    @media (max-width: 768px) {
+        font-size: 25px;
+    }
 }
 
 .share-div {
@@ -209,6 +390,11 @@ p {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+    @media (max-width: 768px) {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
 }
 
 .share-icon-div {
@@ -217,11 +403,23 @@ p {
     align-items: center;
     gap: 40px;
     margin-top: 30px;
+
+    @media (max-width: 768px) {
+        gap: 25px;
+
+        img {
+            max-width: 18%;
+        }
+    }
 }
 
 footer {
     padding-bottom: 150px;
     background-color: #2D3138;
+
+    @media (max-width: 768px) {
+        padding-bottom: 100px;
+    }
 }
 
 .footer-div {
@@ -229,6 +427,13 @@ footer {
     padding-right: 200px;  
     padding-top: 100px;
     padding-bottom: 100px;
+
+    @media (max-width: 768px) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
 
 .footer-div p {
@@ -244,6 +449,11 @@ footer {
     gap: 40px;
     margin-left: 50px;
     margin-top: 30px;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        margin-left: 0px;
+    }
 }
 
 .footer-bottom-div a {
@@ -251,13 +461,51 @@ footer {
     font-size: 14px;
 }
 
+.footer-bottom-div p {
+    color: #BBBBBB;
+    font-size: 14px;
+    position: absolute;
+    top: 45%;
+    left: 82%;
+    transform: translate(-50%, -50%);
+    max-height: 50px;
+    object-fit: contain;
+
+    @media (max-width: 768px) {
+        margin-top: 50px;
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+    }
+}
+
 .footer-bottom-div img {
     position: absolute;
-    top: -10%;
+    top: -20%;
     left: 20%;
     transform: translate(-50%, -50%);
     max-height: 50px;
     object-fit: contain;
+
+    @media (max-width: 768px) {
+        position: relative;
+        max-width: 50%;
+        left: 5%;
+    }
+}
+
+.footer-bottom-div div {
+    display: flex;
+    gap: 20px;
+
+    @media (max-width: 768px) {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        gap: 20px;
+        width: 100%;
+        margin-left: 50px;
+    }
 }
 
 input {
@@ -272,6 +520,14 @@ label {
     font-size: 20px;
     position: relative;
     cursor: pointer;
+
+    @media (max-width: 768px) {
+        padding: 15px 0px 15px 0px;
+
+        img {
+            max-width: 10%;
+        }
+    }
   }
 
 .icon {
@@ -281,6 +537,11 @@ label {
     top: 30%;
     transform-origin: center;
     transition: transform 0.5s;
+
+    @media (max-width: 768px) {
+        right: 0px;
+        top: 25%;
+    }
 }
 
 .icon::before,
@@ -310,9 +571,24 @@ label {
     padding: 5px 20px 5px 20px;
     width: 650px;
     box-shadow: 5px 6px 0px 0px rgba(0, 0, 0, 1);
-  }
 
-  .content {
+    @media (max-width: 768px) {
+        width: 90%;
+        max-width: 650px;
+        padding: 0px 20px 0px 20px;
+        border-radius: 10px;
+    }
+}
+
+.question-label {
+    font-size: 20px;
+
+    @media (max-width: 768px) {
+        font-size: 15px;
+    }
+}
+
+.content {
     max-height: 0;
     opacity: 0;
     visibility: hidden;
@@ -324,6 +600,10 @@ label {
   .content p {
     margin: 0;
     padding: 15px 0px 15px 0px;
+
+    @media (max-width: 768px) {
+        font-size: 15px;
+    }
   }
   
   /*クリックするとコンテンツ表示*/
@@ -335,9 +615,91 @@ label {
     background-image: linear-gradient(to right, #CECECE 50%, transparent 50%);
     background-size: 10px 1px;
     background-repeat: repeat-x;
+
+    @media (max-width: 768px) {
+        max-height: 200px;
+    }
   }
   
   /* アコーディオン表示の際に三角回転 */
   input:checked ~ label .icon {
     transform: rotate(180deg);
   }
+
+.object1 {
+    position: absolute;
+    max-width: 13%;
+    top: -50%;
+    right: 6%;
+
+    @media (max-width: 768px) {
+        max-width: 25% !important;
+        top: 79%;
+        right: -1%;
+    }
+}
+
+.object2 {
+    position: absolute;
+    max-width: 25%;
+    top: 72%;
+    left: 0%;
+
+    @media (max-width: 768px) {
+        max-width: 40%;
+        top: 97%;
+        left: -6%;
+    }
+}
+
+.object3 {
+    position: absolute;
+    max-width: 17%;
+    top: 11%;
+    right: -1%;
+
+    @media (max-width: 768px) {
+        max-width: 39%;
+        top: 36%;
+        right: 1%;
+    }
+}
+
+.object4 {
+    position: absolute;
+    max-width: 12%;
+    top: 55%;
+    left: 15%;
+
+    @media (max-width: 768px) {
+        max-width: 16%;
+        top: 41.5%;
+        left: 1%;
+    }
+}
+
+.object5 {
+    position: absolute;
+    max-width: 15%;
+    top: -7%;
+    right: 22%;
+
+    @media (max-width: 768px) {
+        max-width: 30%;
+        top: -5%;
+        right: 9%;
+    }
+}
+
+.object6 {
+    position: absolute;
+    max-width: 16%;
+    top: 12%;
+    left: 3%;
+
+    @media (max-width: 768px) {
+        max-width: 33% !important;
+        top: 84%;
+        left: 69%;
+    }
+}

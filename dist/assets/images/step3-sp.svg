@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="706.505" height="881.692" viewBox="0 0 706.505 881.692">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.219" y1="0.131" x2="0.774" y2="0.851" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#eda3ff"/>
+      <stop offset="1" stop-color="#a09eff"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="長方形_1086" data-name="長方形 1086" width="149.682" height="168" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+    </clipPath>
+  </defs>
+  <g id="グループ_203" data-name="グループ 203" transform="translate(-14.742 -6562.611)">
+    <rect id="長方形_1643" data-name="長方形 1643" width="671.247" height="829.336" rx="19" transform="translate(50 6614.967)" fill="#2d3138"/>
+    <g id="長方形_1644" data-name="長方形 1644" transform="translate(40 6604.967)" fill="#fff" stroke="#2d3138" stroke-width="4">
+      <rect width="671.247" height="826.878" rx="19" stroke="none"/>
+      <rect x="2" y="2" width="667.247" height="822.878" rx="17" fill="none"/>
+    </g>
+    <text id="NFT受け取り" transform="translate(375 6927.814)" fill="#252525" font-size="36" font-family="NotoSansJP-Black, Noto Sans JP" font-weight="800"><tspan x="-108.144" y="0">NFT</tspan><tspan y="0">受</tspan><tspan y="0">け</tspan><tspan y="0">取</tspan><tspan y="0">り</tspan></text>
+    <text id="NFTがあなたのWeb3ウォレットに届きます_ウォレットにログインして_FRUITS_ZIPPERのメンバー写真やライブ画像を楽しみましょう_" data-name="NFTがあなたのWeb3ウォレットに届きます。ウォレットにログインして、FRUITS ZIPPERのメンバー写真やライブ画像を楽しみましょう。" transform="translate(120 6962.686)" fill="#252525" font-size="28" font-family="NotoSansJP-Medium, Noto Sans JP" font-weight="500"><tspan x="0" y="32">NFT</tspan><tspan y="32">があなたの</tspan><tspan y="32">Web3</tspan><tspan y="32">ウォレットに</tspan><tspan y="32">届</tspan><tspan y="32">き</tspan><tspan x="0" y="73">ます。ウォレットにログインして、</tspan><tspan x="0" y="114">FRUITS ZIPPER</tspan><tspan y="114">のメンバー</tspan><tspan y="114">写真</tspan><tspan y="114">やライブ</tspan><tspan x="0" y="155">画像</tspan><tspan y="155">を</tspan><tspan y="155">楽</tspan><tspan y="155">しみましょう。</tspan></text>
+    <path id="パス_378" data-name="パス 378" d="M51.307,0,42.955,9.344,31.667,3.895,27.542,15.732l-12.515-.7.7,12.515L3.895,31.667,9.344,42.955,0,51.307l9.344,8.352L3.895,70.947l11.837,4.124-.7,12.515,12.515-.7,4.124,11.838L42.955,93.27l8.352,9.344,8.352-9.344,11.288,5.449,4.124-11.838,12.515.7-.7-12.515,11.837-4.124L93.27,59.659l9.344-8.352L93.27,42.955l5.449-11.288L86.882,27.543l.7-12.515-12.515.7L70.947,3.895,59.659,9.344Z" transform="translate(14.742 6562.611)" fill="#2d3138"/>
+    <text id="Step_03" data-name="Step
+03" transform="translate(66 6608.967)" fill="#fff" font-size="24" font-family="Blippo-Black, Blippo MN" font-weight="800"><tspan x="-23.532" y="0">Step</tspan><tspan font-size="30"><tspan x="-18.18" y="27">03</tspan></tspan></text>
+    <g id="グループ_73" data-name="グループ 73" transform="translate(300 6671.546)">
+      <g id="グループ_72" data-name="グループ 72" transform="translate(0 0)" clip-path="url(#clip-path)">
+        <path id="パス_303" data-name="パス 303" d="M141.886,36.292,82.637,2.085a15.635,15.635,0,0,0-15.592,0L7.8,36.292A15.636,15.636,0,0,0,0,49.8V118.21a15.635,15.635,0,0,0,7.8,13.5l59.249,34.207a15.635,15.635,0,0,0,15.592,0l59.249-34.207a15.635,15.635,0,0,0,7.8-13.5V49.8a15.636,15.636,0,0,0-7.8-13.5m1.559,81.918a9.381,9.381,0,0,1-4.678,8.1L79.518,160.519a9.382,9.382,0,0,1-9.355,0L10.914,126.312a9.381,9.381,0,0,1-4.678-8.1V49.8a9.381,9.381,0,0,1,4.678-8.1L70.163,7.486a9.382,9.382,0,0,1,9.355,0l59.249,34.207a9.381,9.381,0,0,1,4.678,8.1Z" transform="translate(0 -0.003)" fill="url(#linear-gradient)"/>
+        <path id="パス_304" data-name="パス 304" d="M630.947,398.747H609.118a3.118,3.118,0,0,0,0,6.237h7.8v34.3a3.118,3.118,0,1,0,6.237,0v-34.3h7.8a3.118,3.118,0,1,0,0-6.237" transform="translate(-511.514 -336.575)" fill="url(#linear-gradient)"/>
+        <path id="パス_305" data-name="パス 305" d="M427.829,398.747h-18.71A3.118,3.118,0,0,0,406,401.865v37.42a3.118,3.118,0,1,0,6.237,0V423.694H424.71a3.118,3.118,0,1,0,0-6.237H412.237V404.984h15.592a3.118,3.118,0,0,0,0-6.237" transform="translate(-342.697 -336.575)" fill="url(#linear-gradient)"/>
+        <path id="パス_306" data-name="パス 306" d="M206.947,398.745a3.118,3.118,0,0,0-3.118,3.118v25.886l-16.017-27.457A3.118,3.118,0,0,0,182,401.863v37.42a3.118,3.118,0,0,0,6.237,0V413.4l16.017,27.457a3.118,3.118,0,0,0,5.812-1.571v-37.42a3.118,3.118,0,0,0-3.118-3.118" transform="translate(-153.623 -336.573)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+    <text id="_SBI_Web3ウォレット未開設のお客さまは_当社口座をお持ちでない場合_新規口座開設の際に同時に開設いただけます_当社口座をお持ちの場合_マイページから開設いただけます_詳細は_SBI_Web3ウォレットの利用申込み方法_をご確認ください_" data-name="※SBI Web3ウォレット未開設のお客さまは、当社口座をお持ちでない場合、新規口座開設の際に同時に開設いただけます。当社口座をお持ちの場合、マイページから開設いただけます。詳細は「SBI Web3ウォレットの利用申込み方法」をご確認ください。" transform="translate(120 7147.008)" fill="#b1b1b1" font-size="24" font-family="NotoSansJP-Bold, Noto Sans JP" font-weight="700"><tspan x="0" y="28">※SBI Web3</tspan><tspan y="28">ウォレット</tspan><tspan y="28">未開設</tspan><tspan y="28">のお</tspan><tspan y="28">客</tspan><tspan y="28">さまは、</tspan><tspan x="0" y="64">当社口座</tspan><tspan y="64">をお</tspan><tspan y="64">持</tspan><tspan y="64">ちでない</tspan><tspan y="64">場合、新規口座開設</tspan><tspan y="64">の</tspan><tspan x="0" y="100">際</tspan><tspan y="100">に</tspan><tspan y="100">同時</tspan><tspan y="100">に</tspan><tspan y="100">開設</tspan><tspan y="100">いただけます。</tspan><tspan y="100">当社口座</tspan><tspan y="100">をお</tspan><tspan y="100">持</tspan><tspan x="0" y="136">ちの</tspan><tspan y="136">場合、</tspan><tspan y="136">マイページから</tspan><tspan y="136">開設</tspan><tspan y="136">いただけます。</tspan><tspan x="0" y="172">詳細</tspan><tspan y="172">は</tspan><tspan y="172">「SBI Web3</tspan><tspan y="172">ウォレットの</tspan><tspan y="172">利用申込</tspan><tspan y="172">み</tspan><tspan y="172">方</tspan><tspan x="0" y="208">法」</tspan><tspan y="208">をご</tspan><tspan y="208">確認</tspan><tspan y="208">ください。</tspan></text>
+  </g>
+</svg>
