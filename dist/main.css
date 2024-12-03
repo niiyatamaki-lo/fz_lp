@@ -330,7 +330,7 @@ a {
 
   @media (max-width: 768px) {
     flex-direction: column;
-    margin-top: 25px;
+    margin-top: 0px;
   }
 }
 
@@ -673,7 +673,7 @@ input:checked ~ label .icon {
 
     @media (max-width: 768px) {
         max-width: 39%;
-        top: 33%;
+        top: 34%;
         right: 1%;
     }
 }
