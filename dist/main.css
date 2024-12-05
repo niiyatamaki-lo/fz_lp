@@ -213,7 +213,7 @@ a {
     @media (max-width: 768px) {
         display: flex;
         justify-content: center;
-        margin-top: 20px;
+        margin-top: 30px;
         position: relative;
     }
 }
@@ -816,8 +816,10 @@ input:checked ~ label .icon {
     border-width: 23px 0 22px 25px;
     border-color: transparent transparent transparent #2D3138;
     z-index: 1;
+}
 
-    @media (max-width: 768px) {
+@media screen and (max-width: 768px) {
+    .step-div::before {
         top: 101%;
         left: 50%;
         margin-top: -2px;
@@ -839,8 +841,10 @@ input:checked ~ label .icon {
     border-width: 20px 0 20px 23px;
     border-color: transparent transparent transparent #FFFFFF;
     z-index: 2;
+}
 
-    @media (max-width: 768px) {
+@media screen and (max-width: 768px) {
+    .step-div::after {
         top: 100%;
         left: 50%;
         margin-top: -4px;
@@ -888,6 +892,8 @@ input:checked ~ label .icon {
     @media (max-width: 768px) {
         width: 320px;
         padding: 20px;
+        padding-top: 40px;
+        padding-bottom: 40px;
         border-radius: 10px;
         box-shadow: 5px 5px 0px 0px #2D3138;
         margin-left: 0px;
@@ -940,6 +946,13 @@ input:checked ~ label .icon {
             height: auto;
             flex-direction: row;
             align-items: flex-start;
+        }
+    }
+
+    .account-link2 {
+        
+        @media (max-width: 768px) {
+            margin-top: 5px;
         }
     }
 
@@ -1090,7 +1103,7 @@ input:checked ~ label .icon {
     @media (max-width: 768px) {
         max-width: 30%;
         top: -5%;
-        right: 9%;
+        right: 3%;
     }
 }
 
@@ -1141,11 +1154,11 @@ input:checked ~ label .icon {
 .account-link {
     font-size: 14px;
     position: absolute;
-    bottom: -30px;
+    bottom: -35px;
     left: 70px;
 
     @media (max-width: 768px) {
-        bottom: -20px;
+        bottom: -25px;
         font-size: 10px;
         left: 45px;
     }
@@ -1153,6 +1166,7 @@ input:checked ~ label .icon {
 
 .account-link2 {
     font-size: 14px;
+    margin-top: 15px;
 
     @media (max-width: 768px) {
         font-size: 10px;
