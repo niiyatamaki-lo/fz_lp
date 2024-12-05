@@ -574,7 +574,7 @@ label {
 }
   
 .wrap {
-    border: 2px solid #000;
+    border: 2px solid #2D3138;
     margin-bottom: 25px;
     border-radius: 15px;
     padding: 5px 20px 5px 20px;
@@ -646,7 +646,7 @@ input:checked ~ label .icon {
     margin-left: 10px;
     padding-top: 30px;
     padding-bottom: 30px;
-    border: 2px solid #000;
+    border: 2px solid #2D3138;
     border-radius: 15px;
     box-shadow: 10px 10px 0px 0px #2D3138;
     background-color: #FFFFFF;
@@ -725,7 +725,7 @@ input:checked ~ label .icon {
     margin-left: 10px;
     padding-top: 30px;
     padding-bottom: 30px;
-    border: 2px solid #000;
+    border: 2px solid #2D3138;
     border-radius: 15px;
     box-shadow: 5px 5px 0px 0px #2D3138;
     background-color: #FFFFFF;
@@ -884,7 +884,7 @@ input:checked ~ label .icon {
     margin-left: 10px;
     padding-top: 70px;
     padding-bottom: 90px;
-    border: 2px solid #000;
+    border: 2px solid #2D3138;
     border-radius: 39px;
     box-shadow: 14px 14px 0px 0px #2D3138;
     background-color: #FFFFFF;
