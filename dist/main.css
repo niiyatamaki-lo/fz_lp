@@ -506,7 +506,6 @@ footer {
 
     @media (max-width: 768px) {
         display: grid;
-        /* grid-template-columns: repeat(2, auto); */
         gap: 20px;
         width: 100%;
         margin-left: 50px;
@@ -525,19 +524,21 @@ label {
     font-size: 20px;
     position: relative;
     cursor: pointer;
+}
 
-    @media (max-width: 768px) {
+@media (max-width: 768px) {
+    label {
         padding: 15px 0px 15px 0px;
-
-        img {
-            max-width: 10%;
-        }
-
-        p {
-            width: 67%;
-        }
     }
-  }
+    
+    label img {
+        max-width: 10%;
+    }
+    
+    label p {
+        width: 67%;
+    }
+}
 
 .icon {
     display: block;
@@ -651,8 +652,10 @@ input:checked ~ label .icon {
     box-shadow: 10px 10px 0px 0px #2D3138;
     background-color: #FFFFFF;
     color: #252525;
+}
 
-    @media (max-width: 768px) {
+@media (max-width: 768px) {
+    .point-div {
         padding: 20px;
         border-radius: 10px;
         box-shadow: 5px 5px 0px 0px #2D3138;
@@ -661,56 +664,66 @@ input:checked ~ label .icon {
         margin-top: 20px;
         width: auto;
     }
+}
 
-    img {
-        max-width: 10%;
-        position: absolute;
-        top: -40px;
-        left: -25px;
+.point-div .point-img {
+    max-width: 10%;
+    position: absolute;
+    top: -40px;
+    left: -25px;
+}
 
-        @media (max-width: 768px) {
-            max-width: 19%;
-            top: -29px;
-            left: -24px;
-        }
+@media (max-width: 768px) {
+    .point-div .point-img {
+        max-width: 19%;
+        top: -29px;
+        left: -24px;
     }
+}
 
-    p {
-        padding-left: 85px;
-        padding-right: 85px;
+.point-div p {
+    padding-left: 85px;
+    padding-right: 85px;
+}
 
-        @media (max-width: 768px) {
-            padding-left: 10px;
-            padding-right: 10px;
-        }
+@media (max-width: 768px) {
+    .point-div p {
+        padding-left: 10px;
+        padding-right: 10px;
     }
+}
 
-    .point-header {
-        font-size: 28px;
-        font-weight: bold;
+.point-div .point-header {
+    font-size: 28px;
+    font-weight: bold;
+}
 
-        @media (max-width: 768px) {
-            font-size: 18px;
-        }
+@media (max-width: 768px) {
+    .point-div .point-header {
+        font-size: 18px;
     }
+}
 
-    .point-text {
-        font-size: 16px;
-        font-weight: bold;
+.point-div .point-text {
+    font-size: 16px;
+    font-weight: bold;
+}
 
-        @media (max-width: 768px) {
-            font-size: 13px;
-        }
+@media (max-width: 768px) {
+    .point-div .point-text {
+        font-size: 13px;
     }
+}
 
-    .point-sub-text {
-        font-size: 12px;
-        font-weight: bold;
-        color: #B1B1B1;
+.point-div .point-sub-text {
+    font-size: 12px;
+    font-weight: bold;
+    color: #B1B1B1;
+}
 
-        @media (max-width: 768px) {
-            font-size: 11px;
-        }
+@media (max-width: 768px) {
+    .point-div .point-sub-text {
+        font-size: 11px;
     }
 }
 
@@ -731,8 +744,10 @@ input:checked ~ label .icon {
     background-color: #FFFFFF;
     color: #252525;
     align-items: center;
+}
 
-    @media (max-width: 768px) {
+@media (max-width: 768px) {
+    .step-div {
         width: auto;
         padding: 20px;
         padding-top: 40px;
@@ -745,64 +760,75 @@ input:checked ~ label .icon {
         height: auto;
         gap: 25px;
     }
+}
 
-    .num-img {
-        max-width: 25%;
-        position: absolute;
-        top: -25px;
-        left: -30px;
+.step-div .num-img {
+    max-width: 25%;
+    position: absolute;
+    top: -25px;
+    left: -30px;
+}
 
-        @media (max-width: 768px) {
-            max-width: 19%;
-            top: -29px;
-            left: -24px;
-        }
+@media (max-width: 768px) {
+    .step-div .num-img {
+        max-width: 19%;
+        top: -29px;
+        left: -24px;
     }
+}
 
-    .step1-img, .step3-img {
-        max-width: 20%;
+.step-div .step1-img,
+.step-div .step3-img {
+    max-width: 20%;
+}
+
+.step-div .step2-img {
+    max-width: 27%;
+}
+
+.step-div p {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+@media (max-width: 768px) {
+    .step-div p {
+        padding-left: 10px;
+        padding-right: 10px;
     }
+}
 
-    .step2-img {
-        max-width: 27%;
+.step-div .step-header {
+    font-size: 21px;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .step-div .step-header {
+        font-size: 18px;
     }
+}
 
-    p {
-        padding-left: 30px;
-        padding-right: 30px;
+.step-div .step-text {
+    font-size: 16px;
+}
 
-        @media (max-width: 768px) {
-            padding-left: 10px;
-            padding-right: 10px;
-        }
+@media (max-width: 768px) {
+    .step-div .step-text {
+        font-size: 13px;
     }
+}
 
-    .step-header {
-        font-size: 21px;
-        font-weight: bold;
-        text-align: center;
+.step-div .step-sub-text {
+    font-size: 12px;
+    font-weight: bold;
+    color: #B1B1B1;
+}
 
-        @media (max-width: 768px) {
-            font-size: 18px;
-        }
-    }
-
-    .step-text {
-        font-size: 16px;
-
-        @media (max-width: 768px) {
-            font-size: 13px;
-        }
-    }
-
-    .step-sub-text {
-        font-size: 12px;
-        font-weight: bold;
-        color: #B1B1B1;
-
-        @media (max-width: 768px) {
-            font-size: 11px;
-        }
+@media (max-width: 768px) {
+    .step-div .step-sub-text {
+        font-size: 11px;
     }
 }
 
@@ -866,12 +892,17 @@ input:checked ~ label .icon {
     justify-content: center;
     align-items: center;
     gap: 40px;
-    margin-top: 35px;
+    /* margin-top: 35px; */
   
     @media (max-width: 768px) {
       flex-direction: column;
       margin-top: 0px;
     }
+}
+
+.img-collection {
+    max-width: 62%;
+    margin-left: 20px;
 }
 
 .nft-div {
@@ -889,8 +920,10 @@ input:checked ~ label .icon {
     box-shadow: 14px 14px 0px 0px #2D3138;
     background-color: #FFFFFF;
     color: #252525;
+}
 
-    @media (max-width: 768px) {
+@media (max-width: 768px) {
+    .nft-div {
         width: auto;
         padding: 20px;
         padding-top: 40px;
@@ -901,132 +934,155 @@ input:checked ~ label .icon {
         margin-right: 25px;
         margin-top: 20px;
     }
+}
 
-    img {
-        max-width: 80%;
-        margin-right: 50px;
+.nft-div img {
+    max-width: 80%;
+    margin-right: 50px;
+}
 
-        @media (max-width: 768px) {
-            max-width: 35%;
-            margin-right: 0px;
-        }
+@media (max-width: 768px) {
+    .nft-div img {
+        max-width: 35%;
+        margin-right: 0px;
     }
+}
 
-    .nft-div-top {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-        margin-top: 20px;
+.nft-div .nft-div-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
 
-        @media (max-width: 768px) {
-            flex-direction: column;
-        }
+@media (max-width: 768px) {
+    .nft-div .nft-div-top {
+        flex-direction: column;
     }
+}
 
-    .nft-sp-div {
-        display: none;
+.nft-div .nft-sp-div {
+    display: none;
+}
 
-        @media (max-width: 768px) {
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-        }
-    }
-
-    .nft-div-top-item {
-        position: relative;
+@media (max-width: 768px) {
+    .nft-div .nft-sp-div {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        width: 280px;
-        height: 500px;
-        gap: 25px;
-
-        @media (max-width: 768px) {
-            width: 100%;
-            height: auto;
-            flex-direction: row;
-            align-items: flex-start;
-        }
+        gap: 15px;
     }
+}
 
-    .account-link2 {
-        
-        @media (max-width: 768px) {
-            margin-top: 5px;
-        }
+.nft-div .nft-div-top-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 280px;
+    height: 500px;
+    gap: 25px;
+}
+
+@media (max-width: 768px) {
+    .nft-div .nft-div-top-item {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        align-items: flex-start;
     }
+}
 
-    .triangle {
-        top: 350px;
-        left: 360px;
-        width: 3%;
-        margin-right: 0;
+.nft-div .account-link2 {
+    margin-top: 15px;
+}
 
-        @media (max-width: 768px) {
-            top: 330px;
-            width: 8%;
-            left: auto;
-            transform: rotate(90deg);
-        }
+@media (max-width: 768px) {
+    .nft-div .account-link2 {
+        margin-top: 5px;
     }
+}
 
-    .nft-header {
-        font-size: 37px;
-        font-weight: bold;
-        text-align: center;
+.nft-div .triangle {
+    top: 350px;
+    left: 360px;
+    width: 3%;
+    margin-right: 0;
+}
 
-        @media (max-width: 768px) {
-            font-size: 18px;
-        }
+@media (max-width: 768px) {
+    .nft-div .triangle {
+        top: 330px;
+        width: 8%;
+        left: auto;
+        transform: rotate(90deg);
     }
+}
 
-    .nft-text {
-        font-size: 16px;
-        font-weight: bold;
+.nft-div .nft-header {
+    font-size: 37px;
+    font-weight: bold;
+    text-align: center;
+}
 
-        @media (max-width: 768px) {
-            font-size: 13px;
-        }
+@media (max-width: 768px) {
+    .nft-div .nft-header {
+        font-size: 18px;
     }
+}
 
-    .nft-sub-text {
-        font-size: 12px;
-        font-weight: bold;
-        color: #B1B1B1;
+.nft-div .nft-text {
+    font-size: 16px;
+    font-weight: bold;
+}
 
-        @media (max-width: 768px) {
-            font-size: 11px;
-        }
+@media (max-width: 768px) {
+    .nft-div .nft-text {
+        font-size: 13px;
     }
+}
 
-    .nft-text-bottom {
-        text-align: center;
-        font-size: 25px;
-        font-weight: bold;
-        background: linear-gradient(to right, #EDA3FF 0%, #E0A2FF 20%, #A09EFF 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        margin-top: 50px;
+.nft-div .nft-sub-text {
+    font-size: 12px;
+    font-weight: bold;
+    color: #B1B1B1;
+}
 
-        @media (max-width: 768px) {
-            margin-top: 30px;
-            font-size: 18px;
-        }
+@media (max-width: 768px) {
+    .nft-div .nft-sub-text {
+        font-size: 11px;
     }
+}
 
-    .image-button {
-        max-width: 50%;
-        margin: auto;
-        margin-top: 20px;
-        margin-bottom: 20px;
+.nft-div .nft-text-bottom {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    background: linear-gradient(to right, #EDA3FF 0%, #E0A2FF 20%, #A09EFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 50px;
+}
 
-        @media (max-width: 768px) {
-            max-width: 80%;
-            margin-top: 0px;
-            margin-bottom: 10px;
-        }
+@media (max-width: 768px) {
+    .nft-div .nft-text-bottom {
+        margin-top: 30px;
+        font-size: 18px;
+    }
+}
+
+.nft-div .image-button {
+    max-width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .nft-div .image-button {
+        max-width: 80%;
+        margin-top: 0px;
+        margin-bottom: 10px;
     }
 }
 
@@ -1072,7 +1128,7 @@ input:checked ~ label .icon {
 .object4 {
     position: absolute;
     max-width: 12%;
-    top: 55%;
+    top: 52%;
     left: 15%;
 
     @media (max-width: 768px) {
