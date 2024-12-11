@@ -334,13 +334,6 @@ a {
     }
 }
 
-.img-collection {
-    @media (max-width: 768px) {
-        max-width: 87%;
-        margin-left: 0px;
-    }
-}
-
 .second-text-div {
     text-align: center;
     position: relative;
@@ -925,7 +918,7 @@ input:checked ~ label .icon {
 }
 
 .img-collection {
-    max-width: 62%;
+    max-width: 72%;
     margin-left: 20px;
 
     @media (max-width: 768px) {
@@ -1157,7 +1150,7 @@ input:checked ~ label .icon {
 .object4 {
     position: absolute;
     max-width: 12%;
-    top: 52%;
+    top: 55%;
     left: 15%;
 
     @media (max-width: 768px) {
