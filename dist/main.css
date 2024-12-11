@@ -207,6 +207,30 @@ a {
     }
 }
 
+.image1-base {
+    border: 15px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    background-clip: padding-box;
+    background-color: rgba(255, 255, 255, 0.5);
+    max-width: 95%;
+
+    @media (max-width: 768px) {
+        border: 8px solid rgba(255, 255, 255, 0.5);
+        border-radius: 10px;
+        margin: 20px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+.image1-base img {
+    border-radius: 20px;
+
+    @media (max-width: 768px) {
+        border-radius: 10px;
+    }
+}
+
 .image-div {
     flex: 1;
 
@@ -219,11 +243,7 @@ a {
 }
 
 .image-div img {
-    max-width: 95%;
-
-    @media (max-width: 768px) {
-        max-width: 90%;
-    }
+    max-width: 100%;
 }
 
 .top-text {
@@ -312,8 +332,8 @@ a {
 
 .img-collection {
     @media (max-width: 768px) {
-        max-width: 90%;
-        margin-left: 10px;
+        max-width: 87%;
+        margin-left: 0px;
     }
 }
 
@@ -903,6 +923,11 @@ input:checked ~ label .icon {
 .img-collection {
     max-width: 62%;
     margin-left: 20px;
+
+    @media (max-width: 768px) {
+        max-width: 87%;
+        margin-left: 0px;
+    }
 }
 
 .nft-div {
