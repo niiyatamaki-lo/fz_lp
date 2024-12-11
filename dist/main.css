@@ -246,6 +246,10 @@ a {
     max-width: 100%;
 }
 
+.description {
+    filter: saturate(1.5);
+}
+
 .top-text {
     color: #FFFFFF;
     font-size: 37px;
